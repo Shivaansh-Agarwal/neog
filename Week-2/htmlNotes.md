@@ -19,7 +19,7 @@
 3. links (anchor tags)
     - primary links
     - secondary links
-4. Block & Inline Elements/Blocks
+4. Block & Inline Elements
     - Block: Takes the entire row. (If you put two elements side-by-side each one takes it's entire row.) Ex: h1,h2.. ,div
     - Inline: Don't take the entire row. (If you put two elements side-by-side they are displayed adjacent to each other.) Ex: small, anchor tag
 5. Lists (ul, ol)
