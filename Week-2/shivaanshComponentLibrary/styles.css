@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary: #7C3AED;
+    --gray: #f3f4f6;
+    --dark-gray: #6B7280;
+}
+
+body{
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+/* @Containers */
+.container-fluid {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    margin: auto;
+    padding: 0rem 1rem;
+    max-width: 600px;
+}
+
+/* links */
+.link-primary {
+    background-color: var(--primary);
+    color: white;
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none; /*To remove the underline from the link*/
+}
+
+.link-secondary {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+/* lists */
+.list-unordered {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* @Navigation */
+.navigation {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .brand {
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0rem 0.8rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .heading {
+    font-weight: bold;
+    font-size: larger; 
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white
+}
+
+/** header **/
+
+.hero {
+    color: var(--dark-gray);
+    display: block;
+}
+
+.hero img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+/** section **/
+
+.section {
+    padding: 2rem 0rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--gray);
+}

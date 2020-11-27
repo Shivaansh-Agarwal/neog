@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivaansh's Component Library</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <h1>Shivaansh's Component Library</h1>
+    <div>
+        We'll be having the following components:
+        <ul>
+            <li>Containers - Fluid & Centered</li>
+            <li>Links</li>
+            <li>Lists</li>
+            <li>Top Navigation</li>
+            <li>Footer</li>
+        </ul>
+    </div>
+    <hr>
+
+
+    <h2>@Containers</h2>
+    <h3>fluid container</h3>
+    <div class="container-fluid">
+        This will take the whole width of the page with some margin.
+    </div>
+    <h3>center container</h3>
+    <div class="container-center">
+        This will take given width and center content. <br>
+        We'll make it center aligned using CSS.
+    </div>
+    <hr>
+
+    <h2>@Links</h2>
+    <a href="/" class="link-primary">Primary Link</a>
+    <a href="" class="link-secondary">Secondary Link</a>
+    <hr>
+
+
+    <h2>@Lists</h2>
+    <h3>unordered lists</h3>
+    <p>To hide the bullets in the unordered list, we can use CSS</p>
+    <ul class="list-unordered">
+        <li>Item one</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <h3>inline lists</h3>
+    <p>Instead of displaying every list item in a new row, we'll show them in different columns</p>
+    <ul class="list-unordered list-inline">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <h3>reverse ordered Lists</h3>
+    <p>Counting of list will be reversed</p>
+    <ol reversed>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+    <hr>
+
+
+    <h2> @header </h2>
+    <header class="container-center hero">
+        <img src="header-image.svg"/>
+        <h1> this is heading h1 inside header</h1>
+    </header>
+    <hr />
+
+
+    <h2> @section</h2>
+    <p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+    <h3>@normal section</h3>
+    <section class="section">
+        <h2> heading inside section</h2>
+        <p>Text defining this section and many more things</p>
+        <a href="" class="primary-link"> Primary Button</a>
+    </section>
+    <h3>@an off white section</h3>
+    <section class="section ow">
+        <h2> inside off white section</h2>
+        <p>Text defining this section and many more things</p>
+        <a href="/" class="primary-link"> Primary Button</a>
+    </section>
+    <hr>
+
+
+    <h2>@Top Navigation Bar</h2>
+    <!-- This top bar will be of the width of the page with navigation links to different pages-->
+    <nav class="navigation">
+        <div class="container-fluid">
+            <div class="brand">Shivaansh Agarwal</div>
+            <ul>
+                <li>
+                    <a href="/" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="/">Projects</a>
+                </li>
+                <li>
+                    <a href="/">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+
+    <h2>Footer</h2>
+    <footer class="footer container-fluid">
+        <div class="container-center">
+            <div class="heading">Header inside footer</div>
+            <ul class="list-unordered list-inline">
+                <li>
+                    <a href="/">Linkedin</a>
+                </li>
+                <li>
+                    <a href="/">Twitter</a>
+                </li>
+                <li>
+                    <a href="/">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <hr>
+</body>
+</html>
