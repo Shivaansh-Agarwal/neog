@@ -8,7 +8,8 @@ function translateText(){
     const url = "https://api.funtranslations.com/translate/minion.json?text=";
     fetch(url+inputText)
     .then(response => response.json())
-    .then(json => outputDiv.textContent = json.contents.translated);
+    .then(json => outputDiv.textContent = json.contents.translated)
+    .catch(()=> {outputDiv.textContent = "Sorry! we're experiencing some technical issue. Please try again later."});
 }
 
 function clearText(){
