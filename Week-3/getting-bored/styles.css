@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+
+:root {
+    --primary: #3CDEAD;
+    --secondary: #DE3C6D;
+    --textColor: #333333;
+}
+
+body {
+    font-family: 'Texturina', serif;
+}
+
+/*@Header*/
+header {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 3rem;
+}
+header div {
+    padding: 0.5rem;
+}
+
+/*@Main Content*/
+main {
+    margin: auto;
+    max-width: 600px;
+    padding: 2rem;
+    text-align: center;
+}
