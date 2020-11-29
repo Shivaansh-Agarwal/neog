@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,37 @@
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" type="text/javascript" defer></script>
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
         <div>
-            Funtoosh
+            Funtoosh - Find a Fun Activity
         </div>
     </header>
 
     <!-- MAIN-->
     <main>
-        Getting Bored? Y Not try something fun!
-        <label for="activity-select">Choose an activity type:</label>
-        <select name="activity" id="activity-select">
-            <option value="">--Please choose an option--</option>
-            <option value="education">Education</option>
-            <option value="recreational">Recreational</option>
-            <option value="social">Social</option>
-            <option value="diy">DIY</option>
-            <option value="charity">Charity</option>
-            <option value="cooking">Cooking</option>
-            <option value="relaxation">Relaxation</option>
-            <option value="music">Music</option>
-            <option value="busywork">Busywork</option>
-        </select>
+        Don't know what to do?<br>Try searching for a fun activity based on your mood.
+        <div id="container-dropdown">
+            <label for="activity-select">Choose an activity type:</label>
+            <select name="activity" id="activity-select">
+                <option value="">--Please choose an option--</option>
+                <option value="education">Education</option>
+                <option value="recreational">Recreational</option>
+                <option value="social">Social</option>
+                <option value="diy">DIY</option>
+                <option value="charity">Charity</option>
+                <option value="cooking">Cooking</option>
+                <option value="relaxation">Relaxation</option>
+                <option value="music">Music</option>
+            </select>
+        </div>
         <button id="btn-find-activity">Find Activity</button>
-
-        <div>Your fun-activity would come here 👇</div>
+        
         <div id="activity-output"></div>
+        <div id="show-gif"></div>
     </main>
 </body>
+
 </html>
