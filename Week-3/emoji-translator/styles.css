@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+:root {
+    --primary: #E69A8DFF;
+    --secondary:#97BC62FF;
+    --textColor: #333333;
+}
+
+body{
+    font-family: 'Major Mono Display', monospace;
+    background-color: #ffffed;
+}
+
+/*@Header*/
+header {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 3rem;
+}
+header div {
+    padding: 0.5rem;
+}
+
+/*@Main Content*/
+main {
+    margin: auto;
+    max-width: 600px;
+    padding: 2rem;
+    text-align: center;
+}
+main img {
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+textarea {
+    min-height: 100px;
+    min-width: 500px;
+    margin-bottom: 1rem;
+    font-family: 'Yeon Sung', cursive;
+    font-size: large;
+}
+
+#btn-translate {
+    background-color: var(--primary);
+    color: var(--textColor);
+    padding: 1rem;
+    min-width: 140px;
+    border: 0rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Yeon Sung', cursive;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+#btn-clear {
+    background-color: var(--secondary);
+    color: var(--textColor);
+    padding: 1rem;
+    min-width: 140px;
+    border: 0rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Yeon Sung', cursive;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+#translate-output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    padding: 1rem;
+    overflow: scroll;
+    margin: auto;
+    background-color: white;
+}
+
+
+/*@footer*/
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 0rem;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer div {
+    font-size: 2rem;
+    padding-top: 0.3rem;
+}
+footer p {
+    margin-top: 0.4em;
+}
+
+.loading-div{
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    position: absolute;
+    margin: auto;
+    opacity: 0.7;
+    display: none;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.loading {
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    position: absolute;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.main-content {
+    z-index: 1;
+}
