@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #3a4253;
+  --secondary-color: #e3e3e3;
+  --list-heading-color: black;
+  --button-bg-color: #ebb8a1;
+}
+
+body {
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0.1rem;
+}
+
+.container-center {
+  margin: auto;
+  padding: 0rem 1rem;
+  max-width: 600px;
+}
+
+.categories {
+  margin: 2rem;
+}
+
+.main-content {
+  margin: 2rem;
+  text-align: left;
+}
+
+button {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: var(--button-bg-color);
+  border-radius: 1rem;
+}
+button:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px lightgray solid;
+  border-bottom-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.item-name {
+  font-size: 1.1rem;
+  color: var(--list-heading-color);
+}
+
+.rating {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
