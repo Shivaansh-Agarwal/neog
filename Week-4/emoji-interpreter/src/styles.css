@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(238, 228, 200);
+}
+
+/*
+  DOUBT: How to change color of text continuously using CSS
+  For animation used the following link:
+  https://css-tricks.com/almanac/properties/a/animation/
+*/
+h1 {
+  animation: pulse 5s infinite;
+}
+@keyframes pulse {
+  0% {
+    color: #001f3f;
+  }
+  100% {
+    color: #542d80;
+  }
+}
+
+input {
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+  text-align: center;
+}
+
+#enteredValue {
+  margin: 0.5rem;
+  font-size: 1.4rem;
+}
+
+#meaning {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
